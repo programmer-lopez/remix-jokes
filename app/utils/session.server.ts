@@ -22,7 +22,6 @@ export async function register({
   return { id: user.id, username };
 }
 
-
 export async function login({
   password,
   username,
